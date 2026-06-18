@@ -10,6 +10,13 @@ next-env.d.ts
 
 # production
 /build
+/dist
+
+# vite
+*.tsbuildinfo
+
+# claude code
+.claude/worktrees/
 
 # misc
 .DS_Store
